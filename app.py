@@ -1,6 +1,6 @@
 from flask import Flask  
 app = Flask(___name___)
 
-@app.route(/)
+@app.route('/')
 def home():
   return "istanbul tripten selam"
